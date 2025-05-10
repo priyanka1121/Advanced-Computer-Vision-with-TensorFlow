@@ -28,3 +28,28 @@ This repository will serve as a dynamic workspace where I document my weekly lea
 - Trained a model to detect and localize rubber duckies using only 5 training examples.
 - Manually labeled images of rubber duckies for object detection.
 - Visualized predicted bounding boxes with TensorFlow’s object detection API.
+
+### Week 3
+**Topics Covered:**
+- Conceptual design of **Fully Convolutional Neural Networks (FCN)** and subsequent models based on them.
+- Understanding the **decoder section** of FCNs and its role in feature reconstruction.
+- Two upsampling methods:
+  - Simple Scaling
+  - Transposed Convolutions
+- Built both the **encoder and decoder sections** of an FCN.
+- Evaluated segmentation models using:
+  - **Intersection-over-Union (IoU)**
+  - **Dice Score**
+- Explored the conceptual design of the **U-Net model**.
+- Implemented **U-Net for image segmentation**.
+- Used **Mask R-CNN** for instance segmentation.
+
+### Week 4
+**Topics Covered:**
+- Importance of **model interpretation** in deep learning.
+- Calculated **Class Activation Maps (CAMs)** to visualize influential image regions.
+- Generated **Saliency Maps** to observe key features affecting model predictions.
+- Implemented **Gradient-weighted Class Activation Mapping (Grad-CAM)** to highlight critical areas used in predictions.
+- Discussed how **visualization techniques** can help refine model design and improve accuracy.
+
+  
